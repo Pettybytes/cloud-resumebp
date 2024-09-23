@@ -24,4 +24,4 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync . s3://your-s3-bucket-name --exclude ".git/*" --delete
+        aws s3 sync . s3://cloudresumechallengebp --exclude ".git/*" --delete
